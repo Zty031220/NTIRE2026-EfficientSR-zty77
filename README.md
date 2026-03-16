@@ -31,5 +31,6 @@ pip install -r requirements.txt
 ```
 4. Testing Command
 ```bash
-python test_demo.py
+chmod +x run.sh
+./run.sh
 ```
