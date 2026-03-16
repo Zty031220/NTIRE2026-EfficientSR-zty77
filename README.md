@@ -21,12 +21,12 @@ pip install mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.
 
 2. Clone the repo
 ```bash
-git clone https://github.com/nathan66666/DVMSR.git
+https://github.com/Zty031220/NTIRE2026-EfficientSR-zty77.git
 ```
 
 3. Install dependent packages
 ```bash
-cd DVMSR
+cd SPAN-Mamba
 pip install -r requirements.txt
 ```
 4. Testing Command
