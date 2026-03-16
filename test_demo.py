@@ -29,12 +29,12 @@ def select_model(args, device):
         model_path = os.path.join('model_zoo', f'team00_SPAN.pth')
         stat_dict = torch.load(model_path)
         model.load_state_dict(stat_dict, strict=False)
-    elif model_id == 19:
+    elif model_id == 5:
         pass  # ---- Put your model here as below ---
-        from models.team19_1_4mamba_single_arch import SPANMamba_single_1_4T19
-        name, data_range = f"{model_id:02}_SPANMamba_single_1_4T19", 1.0  # You can choose either 1.0 or 255.0 based on your own model
-        model_path = os.path.join('model_zoo', 'team19_1_4mamba_single_arch.pth')
-        model = SPANMamba_single_1_4T19()
+        from models.team05_1_4mamba_single_arch import SPANMamba_single_1_4T05
+        name, data_range = f"{model_id:02}_SPANMamba_single_1_4T05", 1.0  # You can choose either 1.0 or 255.0 based on your own model
+        model_path = os.path.join('model_zoo', 'team05_1_4mamba_single_arch.pth')
+        model = SPANMamba_single_1_4T05()
         ckpt = torch.load(model_path, map_location=device)
         if 'params_ema' in ckpt:
             state_dict = ckpt['params_ema']
