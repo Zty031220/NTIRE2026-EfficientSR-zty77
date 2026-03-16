@@ -1,0 +1,2 @@
+Model               	Val PSNR  	Val Time [ms] 	Params [M]	FLOPs [G] 	Acts [M]	Mem [M] 	Conv    
+19_SPANMamba_single_1_4T19	26.90     	53.65         	1.106     	33.40     	106.95  	1468.60 	  34    
