@@ -26,7 +26,7 @@ git clone https://github.com/Zty031220/NTIRE2026-EfficientSR-zty77.git
 
 3. Install dependent packages
 ```bash
-cd SPAN-Mamba
+cd NTIRE2026-EfficientSR-zty77
 pip install -r requirements.txt
 ```
 4. Testing Command
